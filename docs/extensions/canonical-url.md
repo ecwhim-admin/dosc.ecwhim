@@ -53,3 +53,123 @@ Open the CMS page in edit mode and expand the _Search Engine Optimization_ secti
 | FIELD         | DESCRIPTION |
 | ------------- | ----------- |
 | Canonical URL | The URL that is used as the canonical URL for this CMS page. For example: <br> _https://cross-domain.com/cms-page-url-key_ <br> Set a relative URL to use the URL of another CMS page or entity within the current store view. For example: <br> _url-key-of-another-cms-page_ |
+
+## GraphQL
+
+The free [Canonical URL GraphQl](https://github.com/ecwhim/magento2-canonical-url-graph-ql) module provides support of Magento GraphQL for Canonical URL functionality.
+
+### CategoryInterface attribute
+
+The following table defines the CategoryInterface attribute added by our extension.
+
+| ATTRIBUTE         | DATA TYPE | DESCRIPTION |
+| ----------------- | --------- | ----------- |
+| ecw_canonical_url | String    | The absolute canonical URL. |
+
+#### Example Usage
+
+The following query shows how to get the canonical URL for a category:
+
+**Request:**
+```graphql
+{
+    categoryList(filters: {ids: {eq: "14"}}){
+        id
+        name
+        ecw_canonical_url
+    }
+}
+```
+
+**Response:**
+```json
+{
+    "data": {
+        "categoryList": [
+            {
+                "id": 14,
+                "name": "Jackets",
+                "ecw_canonical_url": "https://example.com/men/tops-men/jackets-men.html"
+            }
+        ]
+    }
+}
+```
+
+### CmsPage attribute
+
+The following table defines the CmsPage attribute added by our extension.
+
+| ATTRIBUTE         | DATA TYPE | DESCRIPTION |
+| ----------------- | --------- | ----------- |
+| ecw_canonical_url | String    | The absolute canonical URL. |
+
+#### Example Usage
+
+The following query shows how to get the canonical URL for a CMS page:
+
+**Request:**
+```graphql
+{
+    cmsPage(identifier: "customer-service") {
+        identifier
+        title
+        ecw_canonical_url
+    }
+}
+```
+
+**Response:**
+```json
+{
+    "data": {
+        "cmsPage": {
+            "identifier": "customer-service",
+            "title": "Customer Service",
+            "ecw_canonical_url": "https://example.com/customer-service"
+        }
+    }
+}
+```
+
+### ProductInterface attribute
+
+The following table defines the ProductInterface attribute added by our extension.
+
+| ATTRIBUTE         | DATA TYPE | DESCRIPTION |
+| ----------------- | --------- | ----------- |
+| ecw_canonical_url | String    | The absolute canonical URL. |
+
+#### Example Usage
+
+The following query shows how to get the canonical URL for a product:
+
+**Request:**
+```graphql
+{
+    products(filter: { sku: { eq: "24-MB01" } }) {
+        items {
+            name
+            sku
+            ecw_canonical_url
+        }
+    }
+}
+```
+
+**Response:**
+```json
+{
+    "data": {
+        "products": {
+            "items": [
+                {
+                    "name": "Joust Duffle Bag",
+                    "sku": "24-MB01",
+                    "ecw_canonical_url": "https://example.com/joust-duffle-bag.html"
+                }
+            ]
+        }
+    }
+}
+```
