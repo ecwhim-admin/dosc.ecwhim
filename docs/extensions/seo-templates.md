@@ -11,8 +11,8 @@ Click `Add Template` to go to the template creation page.
 
 ![New Product Template](../images/extension/seo-templates/product-templates/new-template.png){ loading=lazy }
 
-| FIELD                           | DESCRIPTION |
-| ------------------------------- | ----------- |
+| FIELD         | DESCRIPTION |
+| ------------- | ----------- |
 | Name          | The name of the template is for internal reference. |
 | Active        | Determines if the template is currently active. Options: Yes / No |
 | Scope         | Determines the scope within which the template will be applied. Options: Store View / Global |
