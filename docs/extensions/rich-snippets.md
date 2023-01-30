@@ -14,6 +14,34 @@ Stores > Configuration > ECWHIM SEO > Rich Snippets
 | ------ | ----------- |
 | Enable | Determines whether functionality for adding breadcrumb markup to product and category pages is enabled. Options: Yes / No |
 
+### Local Business
+
+![Configuring the Local Business](../images/extension/rich-snippets/configuration-local-business.png){ loading=lazy }
+
+Set **Enable** to `Yes` to see more settings.
+
+![Full Configuring the Local Business](../images/extension/rich-snippets/full-configuration-local-business.png){ loading=lazy }
+
+| FIELD  | DESCRIPTION |
+| ------ | ----------- |
+| Enable              | Determines whether functionality for adding local business markup to the home page is enabled. Options: Yes / No |
+| More Specific Type  | Determines the most specific LocalBusiness sub-type possible. |
+| Image               | An image of the business. |
+| Name                | The name of the business. |
+| Street Address      | The street address. |
+| City/Locality       | The locality in which the street address is, and which is in the region. |
+| Region/State        | The region in which the locality is, and which is in the country. For example: _California or CA_ |
+| ZIP/Postal Code     | The postal code. |
+| Country             | The country. |
+| Phone Number        | The telephone number. A business phone number meant to be the primary contact method for customers. Be sure to include the country code and area code in the phone number. |
+| Latitude            | The latitude of the business location. The precision must be at least 5 decimal places. |
+| Longitude           | The longitude of the business location. The precision must be at least 5 decimal places. |
+| Price Range         | The relative price range of a business, commonly specified by either a numerical range (for example, _$10-15_) or a normalized number of currency signs (for example, _$$$_). |
+| Business Hours (BH) | Determines the hours during which the business location is open. |
+| BH.Day Of Week      | The day(s) of the week for which these opening hours are valid. Options: Monday / Tuesday / Wednesday / Thursday / Friday / Saturday / Sunday |
+| BH.Opening Time     | The time the business location opens, in hh:mm format. |
+| BH.Closing Time     | The time the business location closes, in hh:mm format. |
+
 ### Logo
 
 ![Configuring the Logo](../images/extension/rich-snippets/configuration-logo.png){ loading=lazy }
