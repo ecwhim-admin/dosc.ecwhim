@@ -37,10 +37,10 @@ Set **Enable** to `Yes` to see more settings.
 | Latitude            | The latitude of the business location. The precision must be at least 5 decimal places. |
 | Longitude           | The longitude of the business location. The precision must be at least 5 decimal places. |
 | Price Range         | The relative price range of a business, commonly specified by either a numerical range (for example, _$10-15_) or a normalized number of currency signs (for example, _$$$_). |
-| Business Hours (BH) | Determines the hours during which the business location is open. |
-| BH.Day Of Week      | The day(s) of the week for which these opening hours are valid. Options: Monday / Tuesday / Wednesday / Thursday / Friday / Saturday / Sunday |
-| BH.Opening Time     | The time the business location opens, in hh:mm format. |
-| BH.Closing Time     | The time the business location closes, in hh:mm format. |
+| Business Hours      | Determines the hours during which the business location is open. |
+| &nbsp;&nbsp;&#x2022; Day Of Week  | The day(s) of the week for which these opening hours are valid. Options: Monday / Tuesday / Wednesday / Thursday / Friday / Saturday / Sunday |
+| &nbsp;&nbsp;&#x2022; Opening Time | The time the business location opens, in hh:mm format. |
+| &nbsp;&nbsp;&#x2022; Closing Time | The time the business location closes, in hh:mm format. |
 
 ### Logo
 
