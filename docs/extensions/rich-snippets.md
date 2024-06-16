@@ -72,6 +72,39 @@ Set **Enable** to `Yes` to see more settings.
 | Item Condition Default Value | Determines the default value of the **`itemCondition`** property. Options: New / Used / Damaged / Refurbished |
 | Item Condition Values        | Determines the value of the **`itemCondition`** property according to the value of the attribute specified in the **Item Condition** setting. |
 
+#### Offer Shipping Details
+
+![Configuring Offer Shipping Details](../images/extension/rich-snippets/configuration-shipping-details.png){ loading=lazy }
+
+| FIELD                            | DESCRIPTION                                                                                                                                                                                                            |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Add Shipping Details             | Determines whether to include the **`shippingDetails`** property in the markup. Options: Yes / No                                                                                                                      |
+| Business Days                    | Days of the week when the merchant typically operates. Options: Monday / Tuesday / Wednesday / Thursday / Friday / Saturday / Sunday                                                                                   |
+| Cutoff Time                      | Order cutoff time allows merchants to describe the time after which they will no longer process orders received on that day. For orders processed after cutoff time, one day gets added to the delivery time estimate. |
+| Min Days for Handling Time       | The minimum number of days between the receipt of the order and the goods leaving the warehouse.                                                                                                                       |
+| Max Days for Handling Time       | The maximum number of days between the receipt of the order and the goods leaving the warehouse.                                                                                                                       |
+| Min Days for Transit Time        | The minimum number of days between when the order has been sent for delivery and when the goods reach the final customer.                                                                                              |
+| Max Days for Transit Time        | The maximum number of days between when the order has been sent for delivery and when the goods reach the final customer.                                                                                              |
+| Shipping Destination Country     | The country.                                                                                                                                                                                                           |
+| Shipping Destination Region	    | Identifies the region for the customer delivery area. <br> **Do not provide both a region and postal code information**.                                                                                               |
+| Shipping Destination Postal Code | The postal code.                                                                                                                                                                                                       |
+| Shipping Rate	                | The cost of shipping to the specified destination. <br> To specify **free shipping**, set the value to `0`.                                                                                                                                                                     |
+| Max Shipping Rate                | The maximum cost of shipping to the specified destination. <br> To specify **free shipping**, set the value to `0`.                                                                                                    |
+
+#### Merchant Return Policy
+
+![Configuring the Merchant Return Policy](../images/extension/rich-snippets/configuration-return-policy.png){ loading=lazy }
+
+| FIELD                        | DESCRIPTION                                                                                                                                                                                                                                  |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Add Merchant Return Policy   | Determines whether to include the **`hasMerchantReturnPolicy`** property in the markup. Options: Yes / No                                                                                                                                    |
+| Applicable Country           | The country that the return policy applies to.                                                                                                                                                                                               |
+| Return Policy Category       | The type of return policy. Options: MerchantReturnFiniteReturnWindow / MerchantReturnNotPermitted / MerchantReturnUnlimitedWindow. <br> If set to `MerchantReturnFiniteReturnWindow`, then the **Merchant Return Days** setting is required. |
+| Merchant Return Days         | Specifies the number of days (from the delivery date) that a product can be returned.                                                                                                                                                        |
+| Return Fees Type             | Specifies the type of return fees. Options: Do not add / FreeReturn / ReturnFeesCustomerResponsibility / ReturnShippingFees. <br> If set to `Do not add`, the **`returnFees`** property will not be included in the markup.                  |
+| Return Method                | The type of return method offered. Use one or more of the following options: ReturnAtKiosk / ReturnByMail / ReturnInStore                                                                                                                    |
+| Return Shipping Fees Amount  | The cost of shipping for returning a product. This setting is available when **Return Fees Type** is set to `ReturnShippingFees`.                                                                                                            |
+
 ### Sitelinks Search Box
 
 ![Configuring the Sitelinks Search Box](../images/extension/rich-snippets/configuration-sitelinks-search-box.png){ loading=lazy }

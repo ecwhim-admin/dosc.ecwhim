@@ -9,12 +9,22 @@ Stores > Configuration > ECWHIM SEO > Sitemap > XML Sitemap
 
 ![Configuring the XML Sitemap Extension](../images/extension/xml-sitemap/configuration.png){ loading=lazy }
 
-| FIELD                           | DESCRIPTION |
-| ------------------------------- | ----------- |
-| Exclude "Out of Stock" Products | Allows you to exclude from the sitemap information about the pages of products that are out of stock. Options: Yes/No |
-| Source of Product Images        | Determines the source of product images for the sitemap. Options: Cache/Original |
-| Add Product Videos              | Determines whether to include product videos in the sitemap. Options: Yes/No |
-| Add Category Images             | Determines whether to include category images in the sitemap. Options: Yes/No |
+| FIELD                           | DESCRIPTION                                                                                                             |
+| ------------------------------- |-------------------------------------------------------------------------------------------------------------------------|
+| Exclude "Out of Stock" Products | Allows you to exclude from the sitemap information about the pages of products that are out of stock. Options: Yes / No |
+| Source of Product Images        | Determines the source of product images for the sitemap. Options: Cache / Original                                      |
+| Add Product Videos              | Determines whether to include product videos in the sitemap. Options: Yes / No                                          |
+| Add Category Images             | Determines whether to include category images in the sitemap. Options: Yes / No                                         |
+
+### Additional Links
+
+![Configuring the Additional Links](../images/extension/xml-sitemap/configuration-additional-links.png){ loading=lazy }
+
+| FIELD     | DESCRIPTION                                                                                                                                                   |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Paths     | The list of URL paths without store view code.                                                                                                                |
+| Frequency | Determines how often sitemap additional links are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never                               |
+| Priority  | A value between 0.0 and 1.0 that determines the priority of additional link sitemap updates in relation to other content. Zero (0.0) has the lowest priority. |
 
 ## Manage sitemaps
 
