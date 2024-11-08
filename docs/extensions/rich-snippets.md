@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Rich Snippets Extension adds various structured data, Open Graph markup and Twitter Cards markup to your website pages. Search results include many types of display features, many of which require structured data on the page. Structured data is not only designed to show search results in a certain way, it helps search engines analyze the information on your site, optimize searches, and expand their knowledge network. Rich Snippets Extension is designed to help drive traffic to your website.
+The [Rich Snippets Extension for Magento 2](https://www.ecwhim.com/magento-2-rich-snippets-extension.html) adds various structured data, Open Graph markup and Twitter Cards markup to your website pages. Search results include many types of display features, many of which require structured data on the page. Structured data is not only designed to show search results in a certain way, it helps search engines analyze the information on your site, optimize searches, and expand their knowledge network. Rich Snippets Extension is designed to help drive traffic to your website.
 
 Validate the structured data added by our extension using the [Rich Results Test](https://search.google.com/test/rich-results).  
 
 Example of product page code validation:
-![Configuring the Rich Snippets Extension](../images/extension/rich-snippets/rich-results-test-product-page.png){ loading=lazy }
+![Product Page Rich Results](../images/extension/rich-snippets/rich-results-test-product-page.png){ loading=lazy }
 
 Example of home page code validation:
-![Configuring the Rich Snippets Extension](../images/extension/rich-snippets/rich-results-test-home-page.png){ loading=lazy }
+![Home Page Rich Results](../images/extension/rich-snippets/rich-results-test-home-page.png){ loading=lazy }
 
 ## Configuration
 

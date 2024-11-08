@@ -22,7 +22,7 @@ Click `Add Template` to go to the template creation page.
 | Apply by Cron | Determines whether to apply the template automatically on a schedule using cron. Options: Yes / No |
 | Priority      | A number that indicates the priority of this template in relation to others of the same type. The highest priority is number 0. |
 
-In the `Conditions` tab, specify the conditions that must be met to determine the products to which the template applies. If left blank, the template applies to all products.
+In the `Conditions` section, specify the conditions that must be met to determine the products to which the template applies. If left blank, the template applies to all products.
 
 ![Product Template Conditions](../images/extension/seo-templates/product-templates/conditions.png){ loading=lazy }
 
